@@ -1,0 +1,45 @@
+# Data files and datasets
+data/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Model checkpoints and weights
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+logs/
+
+# Generated images
+generated_images/
+gen_pos_*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables
+.env
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Large model files
+*.bin
+*.safetensors
